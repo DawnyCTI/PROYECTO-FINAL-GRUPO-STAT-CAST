@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Healthy Teeth Artificial Intelligence
 
 ## Descripción
@@ -32,3 +33,7 @@ Healthy Teeth AI es una herramienta de diagnóstico automático de enfermedades 
 
 ## Proyecto en el Samsung Innovation Campus
 
+=======
+# Healthy Teeth AI
+# Proyecto Final - Grupo STAT CAST
+>>>>>>> 24523b9 (Subir proyecto completo excluyendo modelo_entrenado.h5)

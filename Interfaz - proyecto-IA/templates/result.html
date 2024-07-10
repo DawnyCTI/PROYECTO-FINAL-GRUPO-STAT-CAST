@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Predicción Dental</title>
+    <link rel="stylesheet" href="../static/css/style.css"> <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <div class="logo-container">
+            <img src="../static/img/logo1.png" alt="Logo Dental"
+                class="logo-img">
+        </div>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Resultado</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Comentarios</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor principal para los resultados -->
+    <section>
+        <div class="container text-center">
+            <img src="../static/img/clinica-dental.png" alt="Icono Dental" class="icon">
+            <h1>Resultado de la Predicción</h1>
+            <div class="result-box mt-4">
+                <p><strong>Clase Predicha:</strong> {{ prediction }}</p>
+                <p><strong>Confianza:</strong> {{ confidence }}%</p>
+                <p><strong>Recomendación:</strong> {{ recommendation }}</p>
+                <a href="/" class="btn btn-secondary mt-3">Volver a Cargar Imagen</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Incluyendo jQuery y Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

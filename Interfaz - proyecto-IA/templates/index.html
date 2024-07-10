@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="../static/img/clinica-dental (1).png">
+    <title>HEALTHY TEETH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="logo-container">
+            <img src="../static/img/logo1.png" alt="Logo Dental"
+                class="logo-img">
+        </div>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Resultado</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Comentarios</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="container text-center">
+            <img src="{{ url_for('static', filename='img/clinica-dental.png') }}" alt="Icono Dental" class="icon">
+            <h1>Cargar Imagen para Predicción</h1>
+            <p>Selecciona una imagen de tu diente para analizar los posibles problemas.</p>
+            <form method="POST" action="/predict" enctype="multipart/form-data">
+                <div class="upload-btn-wrapper">
+                    <button class="btn">Seleccionar Imagen</button>
+                    <input type="file" name="image" accept="image/*" id="file" onchange="previewImage(event)">
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+            </form>
+            <img id="image-preview" class="preview-img" src="" alt="Vista previa de la imagen">
+        </div>
+    </section>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
