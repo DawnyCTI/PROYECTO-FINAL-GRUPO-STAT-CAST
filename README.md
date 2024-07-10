@@ -13,6 +13,7 @@ Healthy Teeth AI es una herramienta de diagnóstico automático de enfermedades 
 - **Amplia Variedad:** El conjunto de datos incluye 1500 fotografías de una amplia gama de problemas dentales, desde caries hasta enfermedades de las encías.
 - **Alta Calidad:** Las imágenes han sido tomadas con equipos profesionales y cuentan con una excelente resolución y nitidez.
 - **Anotaciones Expertas:** Cada fotografía ha sido revisada y anotada por odontólogos expertos, garantizando la precisión del diagnóstico.
+- **Fuente de las Imágenes:** Las imágenes fueron obtenidas del conjunto de datos [Oral Diseases](https://www.kaggle.com/datasets/salmansajid05/oral-diseases?resource=download) disponible en Kaggle.
 
 ## Entrenamiento y Validación del Modelo
 1. **División de Datos:** El conjunto de 1500 imágenes se divide en subconjuntos de entrenamiento, validación y prueba.
@@ -23,11 +24,32 @@ Healthy Teeth AI es una herramienta de diagnóstico automático de enfermedades 
 - **Lenguajes y Bibliotecas:** Python, TensorFlow, Keras, Flask, NumPy, Pandas
 - **Herramientas de Desarrollo:** Jupyter Notebook, PyCharm, Visual Studio Code
 - **Servicios de Almacenamiento:** Google Drive (para almacenar y compartir el conjunto de datos)
-- **Otras Herramientas:** OpenCV para el procesamiento de imágenes
+  
+## Conclusiones y Próximos Pasos
+- **Avances Notables:** El sistema de IA para reconocimiento de problemas dentales ha demostrado ser altamente preciso y eficiente.
+- **Próximas Mejoras:** Se planea expandir el conjunto de datos y refinar aún más el modelo para mejorar su desempeño.
+- **Implementación Clínica:** El objetivo es integrar esta tecnología en entornos odontológicos para beneficiar a los pacientes y profesionales.
+
+## Integrantes del Grupo
+- Branly Peña Lizardo
+- Awilka Jerome Puente
+- Erick Octavio Rivera
+- Dawny Chalas Telemaco
+
+## Muestras del Proyecto
+
+![Interfaz del proyecto](https://github.com/DawnyCTI/PROYECTO-FINAL---GRUPO-STAT-CAST/raw/main/images/p1.png)
+*Figura 1: Interfaz del proyecto*
+
+![Selección de imagen con problema](https://github.com/DawnyCTI/PROYECTO-FINAL---GRUPO-STAT-CAST/raw/main/images/p2.png)
+*Figura 2: Selección de imagen con problema*
+
+![Resultado del diagnóstico](https://github.com/DawnyCTI/PROYECTO-FINAL---GRUPO-STAT-CAST/raw/main/images/p3.png)
+*Figura 3: Resultado del diagnóstico*
 
 ## Ejemplo de Uso
 
-### Directorio de Entrenamiento
+## Entrenamiento del Modelo
 ```python
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -84,5 +106,5 @@ print(f"Pérdida: {loss}, Precisión: {accuracy}")
 # Guardado del modelo
 model.save('modelo_entrenado.h5')
 
-
-
+# -------------------------------
+# Fin del entrenamiento del modelo
