@@ -36,6 +36,30 @@ Healthy Teeth AI es una herramienta de diagnóstico automático de enfermedades 
 - Erick Octavio Rivera
 - Dawny Chalas Telemaco
 
+## Nota
+Para ejecutar el proyecto, sigue estos pasos:
+
+1. **Descargar el Proyecto:**
+   - Descarga el proyecto desde GitHub. Asegúrate de obtener la carpeta "Interfaz - proyecto-IA".
+
+2. **Obtener el Modelo Entrenado:**
+   - Descarga el archivo "modelo_entrenado.h5" desde la sección de Releases del proyecto.
+
+3. **Colocar el Archivo:**
+   - Mueve el archivo descargado a la carpeta "Interfaz - proyecto-IA" dentro del proyecto que acabas de descargar.
+
+4. **Iniciar el Servidor:**
+   - Abre Visual Studio Code, si no lo has hecho aún.
+
+5. **Ejecutar el Servidor:**
+   - En la terminal de Visual Studio Code, escribe este comando y presiona Enter:
+     ```
+     python app.py
+     ```
+
+6. **Abrir la Aplicación:**
+   - Una vez que el servidor esté funcionando, abre el enlace que te aparecerá en tu navegador para usar la aplicación.
+
 ## Muestras del Proyecto
 
 ![Interfaz del proyecto](https://github.com/DawnyCTI/PROYECTO-FINAL---GRUPO-STAT-CAST/raw/main/images/p1.png)
@@ -46,6 +70,9 @@ Healthy Teeth AI es una herramienta de diagnóstico automático de enfermedades 
 
 ![Resultado del diagnóstico](https://github.com/DawnyCTI/PROYECTO-FINAL---GRUPO-STAT-CAST/raw/main/images/p3.png)
 *Figura 3: Resultado del diagnóstico*
+
+## Estructura del Proyecto
+![Estructura del proyecto](https://github.com/repositoriosHackaton/StatCast/blob/main/images/p4.png)
 
 ## Ejemplo de Uso
 
