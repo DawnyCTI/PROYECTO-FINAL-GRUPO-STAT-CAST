@@ -37,6 +37,7 @@ Healthy Teeth AI es una herramienta de diagnóstico automático de enfermedades 
 - Dawny Chalas Telemaco
 
 ## Nota
+
 Para ejecutar el proyecto, sigue estos pasos:
 
 1. **Descargar el Proyecto:**
@@ -64,6 +65,15 @@ Para ejecutar el proyecto, sigue estos pasos:
      ```
      python app.py
      ```
+
+7. **Abrir la Aplicación:**
+   - Una vez que el servidor esté funcionando, abre el enlace que te aparecerá en tu navegador para usar la aplicación.
+
+8. **Probar con Imágenes de Problemas Dentales:**
+   - Abre tu navegador web y busca imágenes de problemas dentales como caries dental, cálculos dentales, hipodoncia, etc.
+   - Descarga las imágenes que desees utilizar para probar la aplicación y guárdalas en una carpeta en tu computadora.
+   - Ve a la interfaz de la aplicación, selecciona una de las imágenes descargadas y envíala para ver el resultado del diagnóstico.
+
 
 7. **Abrir la Aplicación:**
    - Una vez que el servidor esté funcionando, abre el enlace que te aparecerá en tu navegador para usar la aplicación.
