@@ -48,17 +48,26 @@ Para ejecutar el proyecto, sigue estos pasos:
 3. **Colocar el Archivo:**
    - Mueve el archivo descargado a la carpeta "Interfaz - proyecto-IA" dentro del proyecto que acabas de descargar.
 
-4. **Iniciar el Servidor:**
+4. **Actualizar la Ruta del Modelo:**
+   - Abre el archivo `app.py` en la carpeta "Interfaz - proyecto-IA" con un editor de texto.
+   - Busca la línea que carga el modelo:
+     ```python
+     model = load_model("C:/Users/dawny/Desktop/PROYECTO FINAL - GRUPO STAT CAST/Interfaz - proyecto-IA/modelo_entrenado.h5")
+     ```
+   - Reemplaza la ruta con la ruta donde hayas guardado el archivo "modelo_entrenado.h5" en tu computadora.
+
+5. **Iniciar el Servidor:**
    - Abre Visual Studio Code, si no lo has hecho aún.
 
-5. **Ejecutar el Servidor:**
+6. **Ejecutar el Servidor:**
    - En la terminal de Visual Studio Code, escribe este comando y presiona Enter:
      ```
      python app.py
      ```
 
-6. **Abrir la Aplicación:**
+7. **Abrir la Aplicación:**
    - Una vez que el servidor esté funcionando, abre el enlace que te aparecerá en tu navegador para usar la aplicación.
+
 
 ## Muestras del Proyecto
 
